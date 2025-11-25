@@ -4,56 +4,118 @@ title: "Aerospace Propulsion Case Study"
 ---
 
 # Aerospace Propulsion Case Study  
-### Jet Engine Thrust Analysis (Conceptual)
+### Jet Engine Thrust & Performance Factors
 
 ---
 
-## Purpose
-This case study explores how thrust in a basic turbojet engine is influenced by three key variables: compressor pressure ratio, inlet temperature, and mass flow rate. The goal is to demonstrate an understanding of core propulsion principles commonly covered in introductory aerospace engineering.
+## Overview
+This case study examines the core variables that determine thrust in a basic turbojet engine. Instead of numerical simulation, the analysis focuses on the underlying physical and thermodynamic relationships that engineers use to evaluate engine performance.
+
+The study aims to demonstrate foundational aerospace engineering understanding, particularly in propulsion systems.
 
 ---
 
-## Background
-Jet engines generate thrust by accelerating air through the engine and out the exhaust nozzle. The fundamental thrust relationship is:
+## Introduction
+Turbojet engines generate thrust by accelerating large amounts of air through a series of components:
+
+1. **Inlet**
+2. **Compressor**
+3. **Combustor**
+4. **Turbine**
+5. **Exhaust nozzle**
+
+The fundamental thrust equation is:
 
 \[
 F = \dot{m}(V_{exit} - V_{air})
 \]
 
-Increasing the energy of the airflow (through compression and combustion) raises the exhaust velocity, which directly increases thrust.
+Where:
+
+- \( F \) = thrust  
+- \( \dot{m} \) = mass flow rate  
+- \( V_{exit} \) = exit jet velocity  
+- \( V_{air} \) = incoming air velocity  
+
+Improving thrust means increasing mass flow rate, exit velocity, or both.
 
 ---
 
-## Analysis Overview (Conceptual)
-Although this case study does not use numerical simulations or programming, the physical relationships between variables and thrust output are well-established in propulsion theory.
+## Parameter Analysis
 
-### **1. Compressor Pressure Ratio**
-- Higher pressure ratios increase the temperature and energy of the airflow entering the combustor.
-- This results in stronger expansion in the turbine and nozzle.
-- **Overall effect: Thrust increases as pressure ratio increases.**
+### **1. Compressor Pressure Ratio (CPR)**
+The compressor’s job is to increase air pressure before combustion.  
+A higher CPR leads to:
 
-### **2. Inlet Temperature**
-- Higher ambient temperatures reduce air density.
-- Lower air density reduces engine mass flow rate.
-- **Overall effect: Thrust decreases as ambient temperature increases.**
+- Higher combustor temperatures  
+- More energy added to the gas  
+- Greater expansion through turbine and nozzle  
+- Higher exhaust velocity  
+
+**Outcome:**  
+**Thrust increases as CPR increases**, with diminishing returns at very high ratios.
+
+---
+
+### **2. Ambient (Inlet) Temperature**
+Ambient temperature affects **air density**.
+
+- Hotter air = lower density  
+- Lower density = reduced mass flow into the engine  
+
+Because thrust depends on mass flow rate, hot conditions reduce thrust.
+
+**Outcome:**  
+**Thrust decreases** as inlet temperature increases.
+
+This is why aircraft take longer to take off on hot days (“hot and high” conditions).
+
+---
 
 ### **3. Mass Flow Rate**
-- Thrust is proportional to momentum change.
-- Increasing mass flow rate increases the momentum of expelled air.
-- **Overall effect: Thrust increases approximately linearly with mass flow rate.**
+Mass flow rate has a near-linear effect:
+
+\[
+F \propto \dot{m}
+\]
+
+Increasing \( \dot{m} \):
+
+- Pushes more air through the core  
+- Increases the total momentum change  
+- Improves thrust in most regimes  
+
+Large engines (like GE90 or Raptor) achieve massive thrust partially because of huge mass flow rates.
+
+**Outcome:**  
+Thrust increases proportionally with mass flow rate.
 
 ---
 
-## Expected Trends
-If the relationships were plotted, the trends would typically show:
+## Expected Performance Trends
+If the results were plotted:
 
-- A **steep positive correlation** between pressure ratio and thrust.
-- A **negative correlation** between inlet temperature and thrust.
-- An **approximately linear upward trend** between mass flow rate and thrust.
+- **Pressure ratio vs. thrust:** Steep positive curve  
+- **Inlet temperature vs. thrust:** Negative slope  
+- **Mass flow rate vs. thrust:** Linear positive slope  
 
-These trends are consistent with standard propulsion models and experimental engine data.
+These trends match standard jet propulsion theory and industry performance charts.
+
+---
+
+## Engineering Significance
+Understanding these relationships is essential for:
+
+- Engine design  
+- High-altitude performance prediction  
+- Efficiency optimization  
+- Managing thermal stresses  
+- Aircraft mission planning  
+
+Even without numerical simulation, this analysis demonstrates strong familiarity with propulsion fundamentals.
 
 ---
 
 ## Conclusion
-This case study demonstrates an understanding of how key thermodynamic and aerodynamic variables influence jet engine thrust. Even without running simulations, analyzing these relationships provides meaningful insight into engine performance and highlights foundational concepts used throughout aerospace propulsion engineering.
+This case study highlights how three core variables — **pressure ratio**, **inlet temperature**, and **mass flow rate** — directly impact turbojet thrust. These principles form the foundation of aerospace propulsion engineering and show how engine performance can be optimized for different flight conditions.
+
