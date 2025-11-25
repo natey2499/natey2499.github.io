@@ -26,7 +26,7 @@ title: Case Study
 - Google Sheets & Docs  
 
 ### Certifications
-- Google Data Analytics (Courses 1–5 complete)  
+- Google Data Analytics (Courses 1–8 complete)  
 - Coursera general engineering & science modules  
 
 ### Soft Skills
