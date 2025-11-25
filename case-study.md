@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Aerospace Propulsion Case Study"
 ---
 
