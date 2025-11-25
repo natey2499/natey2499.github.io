@@ -1,6 +1,4 @@
----
-layout: page
-title: "Skills"
+title: "skills"
 ---
 
 # Skills
