@@ -2,9 +2,8 @@ theme: jekyll-theme-cayman
 title: "Nate Maranga"
 description: "Aerospace Engineering Portfolio"
 
-# Navigation links
 navbar-links:
   Home: "/"
-  case-study: "case-study"
-  Skills: "skills"
-  About: "about"
+  Case Study: "/case-study"
+  Skills: "/skills"
+  About: "/about"
