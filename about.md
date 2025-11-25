@@ -1,4 +1,6 @@
-title: "about Me"
+---
+layout: default
+title: About Me
 ---
 
 # About Me
