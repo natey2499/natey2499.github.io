@@ -1,5 +1,8 @@
-title: "skills"
 ---
+layout: default
+title: Case Study
+---
+
 
 # Skills
 
