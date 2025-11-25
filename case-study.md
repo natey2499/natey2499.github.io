@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Case Study
+---
 
 # Aerospace Propulsion Case Study  
 ### Jet Engine Thrust & Performance Factors
